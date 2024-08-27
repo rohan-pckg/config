@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"A File Icon",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlight",
+		"ColorPicker",
+		"Emmet",
+		"JsFormat",
+		"JsPrettier",
+		"LoremIpsum",
+		"LSP",
+		"LSP-clangd",
+		"LSP-css",
+		"LSP-eslint",
+		"LSP-html",
+		"LSP-pyright",
+		"LSP-typescript",
+		"MonokaiFree",
+		"Origami",
+		"Package Control",
+		"Prettierd Format",
+		"Sass",
+		"SideBarTools",
+		"Solarized Color Scheme",
+		"SublimeLinter",
+		"Tailwind CSS",
+		"Terminus",
+	],
+	"in_process_packages":
+	[
+	],
+}

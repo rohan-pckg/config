@@ -1,0 +1,46 @@
+[window]
+opacity = 1
+blur = true
+padding = { x = 3, y = 3 }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 16
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#16181a"
+# cursor = {fg="#ffffff", bg="#ffffff"}
+# cursor_border = "#ffffff"
+# selection = { text= "#ffffff", bg="#3c4048"}
+
+[colors.search]
+# matches= {fg="#ffffff", bg="#3c4048"}
+# focused_match={fg="#16181a", bg="#5ef1ff"}
+
+[colors.normal]
+black = "#14161B"
+red = "#ff6e5e"
+green = "#5eff6c"
+yellow = "#f1ff5e"
+blue = "#5ea1ff"
+magenta = "#bd5eff"
+cyan = "#5ef1ff"
+white = "#ffffff"
+
+[colors.bright]
+black = "#14161B"
+red = "#ff6e5e"
+green = "#5eff6c"
+yellow = "#f1ff5e"
+blue = "#5ea1ff"
+magenta = "#bd5eff"
+cyan = "#5ef1ff"
+white = "#ffffff"
+# indexed_colors = [{ index = 16 , color = "#ff6e5e" }]
+
+[debug]
+persistent_logging = false
+log_level = "Off"
+print_events = false
+highlight_damage = false
