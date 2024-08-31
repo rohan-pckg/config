@@ -12,16 +12,16 @@ return {
     -- stylua: ignore
     local colors = {
       fg       = '#ffffff',
-      yellow   = '#b3f6c0',
+      yellow   = '#ffff87',
       cyan     = '#008080',
       darkblue = '#081633',
-      green    = '#b3f6c0',
-      orange   = '#9a9d9b',
+      green    = '#a4e400',
+      orange   = '#ff9700',
       violet   = '#af87ff',
       magenta  = '#fc1a70',
       blue     = '#62d8f1',
       red      = '#fc1a70',
-      bg       = '#0b0c0e'
+      bg       = '#2c2c2c'
     }
 
     local conditions = {
@@ -51,6 +51,7 @@ return {
           normal = { c = { fg = colors.fg, bg = colors.bg } },
           inactive = { c = { fg = colors.fg, bg = colors.bg } },
         },
+        -- theme = auto,
       },
       sections = {
         -- these are to remove the defaults
@@ -135,7 +136,7 @@ return {
       "filename",
       path = 1,
       cond = conditions.buffer_not_empty,
-      color = { fg = colors.gray },
+      color = { fg = colors.yellow },
     })
     --	ins_left({ "location" })
 
@@ -178,7 +179,7 @@ return {
         return msg
       end,
       icon = " ",
-      color = { fg = "gray" },
+      color = { fg = "yellow" },
     })
 
     -- Add components to right sections
@@ -233,3 +234,4 @@ return {
     lualine.setup(config)
   end,
 }
+

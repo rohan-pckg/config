@@ -12,7 +12,7 @@ return {
   config = function()
     vim.cmd("highlight Pmenu guibg=NONE")
 
-    -- vim.api.nvim_set_hl(0, "CmpNormal", { bg = "#2c2c2c" })
+    vim.api.nvim_set_hl(0, "CmpNormal", { bg = "#2c2c2c" })
     local cmp = require("cmp")
 
     local luasnip = require("luasnip")
