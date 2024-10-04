@@ -1,0 +1,47 @@
+import = [
+"~/.config/alacritty/gruvbox.yaml"
+]
+[window]
+opacity = 1
+blur = true
+padding = { x = 3, y = 3 }
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+size = 16
+
+
+[debug]
+persistent_logging = false
+log_level = "Off"
+print_events = false
+highlight_damage = false
+
+[colors]
+  # Default colors
+  [colors.primary]
+    background = "0x1e1e1e"  # hard contrast: background = '0x1d2021'
+    foreground = "0xffffff"  # soft contrast: background = '0x32302f'
+
+  # Normal colors
+  [colors.normal]
+    black   = "0x1e1e1e"
+    red     = "0xcc241d"
+    green   = "0x98971a"
+    yellow  = "0xd79921"
+    blue    = "0x458588"
+    magenta = "0xb16286"
+    cyan    = "0x689d6a"
+    white   = "0xa89984"
+
+  # Bright colors
+  [colors.bright]
+    black   = "0x928374"
+    red     = "0xfb4934"
+    green   = "0xb8bb26"
+    yellow  = "0xfabd2f"
+    blue    = "0x83a598"
+    magenta = "0xd3869b"
+    cyan    = "0x8ec07c"
+    white   = "0xebdbb2"
+

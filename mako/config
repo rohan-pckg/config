@@ -1,0 +1,22 @@
+sort=-time
+font=NotoSansM Nerd Font Mono
+background-color=#285577
+actions=1
+anchor=center-right
+border-size=0
+default-timeout=5000
+ignore-timeout=1
+
+[urgency=normal]
+border-color=#d08770
+
+[urgency=high]
+border-color=#bf616a
+default-timeout=0
+
+[app-name=lightcord]
+border-color=#88c0d0
+
+[summary~="log-.*"]
+border-color=#a3be8c
+
